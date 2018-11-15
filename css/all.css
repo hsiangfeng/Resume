@@ -375,7 +375,9 @@ footer{
     } 
     /* user */
     .user-left{
-        position: absolute;
+        position: relative;
+        width: 150px;
+        margin-right: -10%;
     }
     .user-right .fas{
         display: none;
