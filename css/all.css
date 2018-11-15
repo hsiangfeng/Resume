@@ -374,6 +374,9 @@ footer{
     padding: 0;
     } 
     /* user */
+    .user-left{
+        position: absolute;
+    }
     .user-right .fas{
         display: none;
     }
@@ -382,9 +385,6 @@ footer{
     }
     .user-right .fab{
         display: none;
-    }
-    .user-right h1{
-        font-size: 0.8rem;
     }
     /* skills*/
     .skills-list h3{
