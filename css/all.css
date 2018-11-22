@@ -354,7 +354,7 @@ footer{
     padding: 0;
     } 
     /* user */
-    .designMore h1{
+    .designMore h3{
         font-size: 16px;
     }
     /* Web Skills */
@@ -376,7 +376,7 @@ footer{
     .design{
         position: absolute;
     }
-    .designMore li.fas ,.designMore li .far , .designMore li .fab{
+    .designMore li .fas,.designMore li .far,.designMore li .fab{
         display: none;
     }
     /* skills*/
