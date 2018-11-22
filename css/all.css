@@ -64,7 +64,7 @@ img{
 }
 .skills{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .clearfix{
     clear: both;
@@ -77,13 +77,8 @@ img{
     background-size: 100% 80%;
     height: 322px;
 }
-.user-right a{
-    color:#fff;
-    text-decoration: none;
-}
-.user-left{
+.design{
     position: absolute;
-    float: right;
     right: 65%;
     top: 15%;
     text-align: center;
@@ -91,25 +86,28 @@ img{
     line-height: 30px;
     color:#000;
 }
-.user-left img{
+.design img{
     border-radius: 50%;
 }
-.user-right{
+.designMore a{
+    color:#fff;
+    text-decoration: none;
+}
+.designMore{
     position: absolute;
-    float: left;
     left: 50%;
     top: 15%;
     font-size: 20px;
     line-height: 50px;
     color:#fff;
 }
-.user-right h1{
+.designMore li h3{
     margin-left: 20px;
     display: inline;
 }
 
 /* Skills */
-.skills h1{
+.skills h2{
     margin-bottom: 20px;
     text-align: center;
     font-size:30px;
@@ -147,32 +145,32 @@ img{
 .skills-list li{
     color: #4A4A4A;
 }
-.skills-footer-1{
+.skills-footer-orange{
     border-bottom:10px solid #F58D23;
     border-radius: 0 0 10px 10px;
 }
-.skills-footer-1:hover{
+.skills-footer-orange:hover{
     border-bottom:10px solid #F58D23;
     border-radius: 0 0 10px 10px;
 }
-.skills-footer-2{
+.skills-footer-green{
     border-bottom:10px solid #539E43;
     border-radius: 0 0 10px 10px;
 }
-.skills-footer-2:hover{
+.skills-footer-green:hover{
     border-bottom:10px solid #539E43;
     border-radius: 0 0 10px 10px;
 }
-.skills-footer-3{
+.skills-footer-purple{
     border-bottom:10px solid #6762A6;
     border-radius: 0 0 10px 10px;
 }
-.skills-footer-3:hover{
+.skills-footer-purple:hover{
     border-bottom:10px solid #6762A6;
     border-radius: 0 0 10px 10px;
 }
 /* exp */
-.exp h1{
+.exp h2{
     margin-bottom: 20px;
     text-align: center;
     font-size:30px;
@@ -234,7 +232,7 @@ img{
 .works{
     margin-top: 30px;
 }
-.works h1{
+.works h2{
     margin-bottom: 20px;
     text-align: center;
     font-size: 30px;
@@ -279,6 +277,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 .btn-purple:hover{
     background-color: #7F7BF2;
@@ -289,7 +288,7 @@ img{
     margin-top: 30px;
     position: relative;
 }
-.about h1{
+.about h2{
     margin-bottom: 20px;
     text-align: center;
     font-size: 30px;
@@ -375,9 +374,7 @@ footer{
     } 
     /* user */
     .user-left{
-        position: relative;
-        width: 150px;
-        margin-right: -10%;
+        position: absolute;
     }
     .user-right .fas{
         display: none;
