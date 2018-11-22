@@ -376,13 +376,7 @@ footer{
     .design{
         position: absolute;
     }
-    .designMore .fas{
-        display: none;
-    }
-    .designMore .far{
-        display: none;
-    }
-    .udesignMore .fab{
+    .designMore li.fas ,.designMore li .far , .designMore li .fab{
         display: none;
     }
     /* skills*/
