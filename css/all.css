@@ -337,7 +337,7 @@ footer{
 }
 @media (max-width: 992px) { 
     .wrap{
-    max-width: 960px;
+        max-width: 960px;
     } 
     /* Web Skills */
     .skills-list h3{
@@ -374,7 +374,7 @@ footer{
     } 
     /* user */
     .design{
-        position: absolute;
+        right: 50%;
     }
     .designMore li .fas,.designMore li .far,.designMore li .fab{
         display: none;
@@ -393,7 +393,7 @@ footer{
     }
     /* work */
     .works-list{
-        width: 98%;
+        width: 96%;
         margin: 2%;
     }
 }
