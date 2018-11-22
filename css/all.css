@@ -354,7 +354,7 @@ footer{
     padding: 0;
     } 
     /* user */
-    .user-right h1{
+    .designMore h1{
         font-size: 16px;
     }
     /* Web Skills */
@@ -373,19 +373,23 @@ footer{
     padding: 0;
     } 
     /* user */
-    .user-left{
+    .design{
         position: absolute;
     }
-    .user-right .fas{
+    .designMore .fas{
         display: none;
     }
-    .user-right .far{
+    .designMore .far{
         display: none;
     }
-    .user-right .fab{
+    .udesignMore .fab{
         display: none;
     }
     /* skills*/
+    .skills-list{
+        width: 98%;
+        margin-bottom: 2%;
+    } 
     .skills-list h3{
         font-size: 30px;
     }
@@ -393,10 +397,6 @@ footer{
         font-size: 16px;
         line-height: 39px;
     }
-    .skills-list{
-        width: 98%;
-        margin-bottom: 2%;
-    } 
     /* work */
     .works-list{
         width: 98%;
